@@ -5,12 +5,10 @@ int main() {
     int x;
     cin>>x;
     
-   
-    if(x>=12)
+    if(x>=12) {
     cout<<"yes";
-    else
-    cout<<"no";
+    } else {
+	    cout<<"no";
+    }
     return 0;
-	
-
 }
